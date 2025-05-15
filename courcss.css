@@ -1,0 +1,15 @@
+table{border- collapse:collapse}
+td
+{border:1px solid rgb(0,0,0)}
+body{font-size: 2em;
+  background-color: rgb(171,187,223);
+  font-family: impact,Haettenscheiler,'Arial Narrow Bold',sans-serf;
+}
+
+.a{background-color:red;}
+.c{background-color: blue;}
+.e{background-color: rgb(42,173,22);}
+.g{border:1px dashed black;
+ border-top:px dashed black;}
+.tableau{text-shadow:6px 6px 0px blue;}
+#p,#q,#r{writing-mode: vertical-rl;transform: rotate(180deg)}

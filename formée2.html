@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body >
+
+	<form method="post" action="" >
+
+		<marquee direction="right"><h1 style="color:blue"> Enregistrement des étudiants</h1></marquee>
+
+		<fieldset>
+			<legend><h3>Etat Civil</h3></legend>
+
+			<label><strong>Nom:</strong></label><br/>
+			<input type="nom" name="nom" ><br/>
+
+			<label><strong>Prénom:</strong></label><br/>
+			<input type="text" name="prenom" required><br/>
+
+			<label><strong>Date of birth:</strong></label><br/>
+			<input type="Date" name="Datenaissance" ><br/>
+
+			<label><strong>Mail:</strong></label><br/>
+			<input type="email" name="adrmail"><br/>
+
+			<label><strong>contact</strong></label><br/>
+			<input type="tel" name="contact" minlength="08" placeholder="sans le 01" required>
+
+			<label><strong>Sexe</strong></label>
+			<select name="sexe" >
+				<option value="Masculin">Masculin</option>
+				<option value="Féminin">Féminin</option>
+			</select>
+
+		</fieldset>
+
+		<fieldset>
+			<legend> <h3>Les diplômes</h3> </legend>
+			<p> 
+
+				<input type="checkbox" name="cep" id="cep" /> <label >CEP</label>
+				<input type="checkbox" name="bepc" id="bepc" /> <label >BEPC</label>
+				<input type="checkbox" name="bac" id="bac" /> <label >BAC</label>
+				<input type="checkbox" name="bac" id="bts" /> <label >BTS</label> 
+			</p>
+		</fieldset>
+
+		<p>
+			<center>
+ 			<label for="ameliorer">Votre adresse</label><br />
+ 			<textarea name="adresse" id="adresse"></textarea>
+ 		</center>
+ 		</p>
+
+		<fieldset>
+			<legend>Pays</legend>
+			<p style="color: ;"> 
+				<input type="radio" name="pays" value="Benin" id="Benin"/> <label for="Benin">Benin</label>
+				<input type="radio" name="pays" value="Senegal" id="Senegal" /> <label for="Senegal">Sénégal </label>
+				<input type="radio" name="pays" value="France"id="France" /> <label for="France">France </label>
+			</p>
+		</fieldset>
+	  
+	  
+		<fieldset>
+			<legend><strong>Les tâches</strong></legend>
+			<input type="submit" value="Envoyer" />
+			<input type="reset" value="Effacer"  />
+			<input type="" value="Quitter" />
+		 </fieldset>
+	</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
